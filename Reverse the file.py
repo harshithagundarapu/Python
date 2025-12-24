@@ -1,0 +1,5 @@
+file = open("sample.txt", "r")
+x=file.read()
+print(x)
+print(x[::-1])
+file.close()
